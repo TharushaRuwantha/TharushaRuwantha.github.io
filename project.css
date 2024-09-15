@@ -4,13 +4,12 @@
 
 body {
   margin: 0;
-  background-color: black;
 }
 
 #main {
   position: relative;
   z-index: 20;
-  background: #000000;
+  background: #fff;
   transition: transform 0.6s ease;
 }
 @media (min-width: 640px) {
@@ -93,28 +92,4 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
-}
-nav {
-    display: flex;
-    align-items: center;
-    padding: 1em;
-    background-color: #000000;
-  }
-  
-  .back-arrow {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  .back-arrow img {
-    width: 24px;
-    height: 24px;
-    margin-right: 0.5em;
-  }
-  
-  .back-arrow span {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
+}/*# sourceMappingURL=project.css.map */
