@@ -47,7 +47,7 @@ body{
 }
 
 .project{
-    background-color: #FFA800;
+    background: linear-gradient( #ff9500, #FFA800);
     justify-content: center;
 }
 
@@ -90,11 +90,18 @@ body{
     position: absolute;
 }
 .frontWording{
-    color: #FFA800;
+    background: linear-gradient(to right, #ff6200, #ff8c00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    
 }
 
 .backWording{
-color: #A17726;
+    background: linear-gradient(to right, #ff8c00, #FFA800);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .dot{
   
@@ -219,7 +226,8 @@ color: #A17726;
 
 .Cvbutton{
  margin-top: 20px;
- background-color: #FFA800;
+
+ background: linear-gradient(to right, #ffa200, #FFA800);
  border-radius: 3px;
  padding-top:5px;
  padding-bottom: 5px;
@@ -242,7 +250,7 @@ color: #A17726;
 }
 
 .submitButton{
-    background-color: #FFA800;
+    background: linear-gradient(to right, #ffa200, #FFA800);
     border-radius: 3px;
     padding-top:5px;
     padding-bottom: 5px;
